@@ -1,3 +1,14 @@
-<p>
-  form works!
-</p>
+<label>Name
+  <input [(ngModel)]='name' type='text' />
+</label>
+<label>HP
+  <input [(ngModel)]='hp' type='text' />
+</label>
+<label>Category
+  <input [(ngModel)]='category' type='text' />
+</label>
+<button (click)='submit()'>Submit</button>
+
+<p>{{name}}</p>
+<p>{{hp}}</p>
+<p>{{category}}</p>
