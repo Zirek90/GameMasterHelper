@@ -1,3 +1,6 @@
-<ul>
-  <li></li>
+<button (click)='refreshData()'>Refresh</button>
+<ul *ngFor='let monster of monsterList'>
+  <li>Name: {{monster.name}}</li>
+  <li>HP: {{monster.hp}}</li>
+  <li>Category: {{monster.category}}</li>
 </ul>

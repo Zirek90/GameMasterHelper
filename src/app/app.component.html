@@ -1,4 +1,11 @@
 <app-header></app-header>
-<div>
+<div *ngIf='!gamePage; else page'> 
+    <app-form-list></app-form-list>
     <app-form></app-form>
+    <button (click)='playGame()'>Let's play a game!</button>
 </div>
+<ng-template #page>
+    <div>
+    <p>dziala</p>
+    </div>
+</ng-template>

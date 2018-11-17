@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'gameMasterHelper';
+
+  gamePage:boolean = false;
+
+  constructor() {
+
+  }
+
+  playGame() {
+    this.gamePage = true;
+  }
 }
