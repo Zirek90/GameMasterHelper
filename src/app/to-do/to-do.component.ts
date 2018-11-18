@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-to-do',
@@ -7,9 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToDoComponent implements OnInit {
 
-  constructor() { }
+  tasks:any[] = []
+
+  constructor() { 
+  }
 
   ngOnInit() {
+  }
+  
+  submit(newTodoTask) {
+    var newTodo = {
+      title: newTodoTask,
+      done: false
+    }
+    this.tasks.push(newTodo)
   }
 
 }

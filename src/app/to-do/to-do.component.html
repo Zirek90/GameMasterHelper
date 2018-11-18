@@ -1,3 +1,13 @@
-<p>
-  to-do works!
-</p>
+<form>
+  <label>Add tasks to remember
+    <input type="text" #newTodo>
+  </label>
+  <button (click)='submit(newTodo.value)'>Add</button>
+</form>
+
+<ul *ngFor='let task of tasks'>
+  <li>
+    <input type="checkbox" ng-model='task.done'>
+    <span>{{ task.title }}</span>
+  </li>
+</ul>
