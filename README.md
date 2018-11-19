@@ -1,10 +1,10 @@
 # GameMasterHelper
 
-Project was created in learning purposes however I tried my best to make it be useful for RPG players. 
-It is called Game Master Helper as it has on purpose to make life of Game Master of every RPG game easier.
-Now every person who wish to lead a game, would have all tools in one place, at the beginning before game is started, can add necessary npc to firebase database, to refresh left list just click button 'refresh'. If all characters which would be used during sesson are already in database, just click 'Let's play a game' button.
+Project was created in learning purposes of Angular framework, and potentially useful for people who wish to be Game Masters during RPG sessions.
+It is called Game Master Helper as it aims to help RPG Game Master to manage and maintain each session of the story.
+Now every person who wants to lead the game, would have all tools in one place. In the beginning before game is started, Game Master can add necessary non-player characters (NPC) to the firebase database. Next, to refresh left list, Game Master may click the 'refresh'button. If all characters which would be used during session are already in database, then just click 'Let's play a game' button.
 
-After that would be final GameMaster board, with:
+After that, the final GameMaster board will be shown as:
 
 - timer on the top,
 
@@ -12,15 +12,15 @@ After that would be final GameMaster board, with:
 
 - list of NPC below the dices,
 
-- important moments to remember like 'traps' or some particular 'plot twists' on the middle,
+- important moments to remember like 'traps' or some particular 'plot twists' in the middle,
 
 - textarea with place for small temporary notes on the right,
 
 - calculator with basic operators below the textarea,
 
-Hope it will make some game sessions better and easier to maintain, project is going to be develop with time.
+I expect that it will make some game sessions better and easier to maintain. This project will be developing with time.
 
-Things to add in future: Filter through the categories, after clicking checkbox task from reminder would be strikethrough.
+Things to add in future: Filter through the categories (after clicking checkbox task from reminder would be strikethrough).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
