@@ -1,0 +1,17 @@
+.dices {
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px dashed black;
+    button {
+        width: 40px;
+        margin: .2rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+        span {
+            display: block;
+            color: white;
+            text-align: center;
+        }
+    }
+}

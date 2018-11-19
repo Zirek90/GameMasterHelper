@@ -1,6 +1,8 @@
-<app-dices></app-dices>
-<ul *ngFor='let monster of monsterList'>
-  <li>{{monster.name}}</li>
-  <li>{{monster.hp}}</li>
-  <li>{{monster.category}}</li>
-</ul>
+<div class="col-md monster-list">
+  <app-dices></app-dices>
+  <ul *ngFor='let monster of monsterList'>
+    <li>Name: {{monster.name}}</li>
+    <li>HP: {{monster.hp}}</li>
+    <li>Category: {{monster.category}}</li>
+  </ul>
+</div>

@@ -1,0 +1,24 @@
+.toDo-container {
+    width: 550px;
+    display: block;
+    margin: auto;
+    form {
+        margin: auto;
+    label {
+        font-size: 1.5rem;
+        display: grid;
+        text-align: center;
+    }
+    button {
+        display: flex;
+        margin: auto;
+        width: 100px;
+    }
+}
+    ul {
+        li {
+            display: inline;
+        }
+    }
+    
+}

@@ -1,13 +1,17 @@
-<form>
-  <label>Add tasks to remember
-    <input type="text"  [(ngModel)]='newTask' [ngModelOptions]="{standalone: true}">
-  </label>
-  <button (click)='submit(newTask)'>Add</button>
-</form>
+<div class="col-md toDo-container">
+  <form>
+    <label>Add tasks to remember
+      <input type="text" [(ngModel)]='newTask' [ngModelOptions]="{standalone: true}">
+    </label>
+    <button (click)='submit(newTask)'>Add Reminder</button>
+  </form>
 
-<ul *ngFor='let task of tasks'>
-  <li>
-    <input type="checkbox" ng-model='task.done'>
-    <span>{{ task.title }}</span>
-  </li>
-</ul>
+  <ul *ngFor='let task of tasks'>
+    <!-- <ul> -->
+    <li>
+      <input type="checkbox" ng-model='task.done'>
+      <span>{{ task.title }}</span>
+    </li>
+  <!-- </ul> -->
+  </ul>
+</div>
