@@ -1,5 +1,27 @@
 # GameMasterHelper
 
+Project was created in learning purposes however I tried my best to make it be useful for RPG players. 
+It is called Game Master Helper as it has on purpose to make life of Game Master of every RPG game easier.
+Now every person who wish to lead a game, would have all tools in one place, at the beginning before game is started, can add necessary npc to firebase database, to refresh left list just click button 'refresh'. If all characters which would be used during sesson are already in database, just click 'Let's play a game' button.
+
+After that would be final GameMaster board, with:
+
+- timer on the top,
+
+- 6 different kind of dices on the left side,
+
+- list of NPC below the dices,
+
+- important moments to remember like 'traps' or some particular 'plot twists' on the middle,
+
+- textarea with place for small temporary notes on the right,
+
+- calculator with basic operators below the textarea,
+
+Hope it will make some game sessions better and easier to maintain, project is going to be develop with time.
+
+Things to add in future: Filter through the categories, after clicking checkbox task from reminder would be strikethrough.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
 ## Development server
