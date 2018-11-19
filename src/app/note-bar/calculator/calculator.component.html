@@ -1,7 +1,12 @@
-<input type="number" [(ngModel)]='numberOne'/>
-<input type="number" [(ngModel)]='numberTwo'/>
-<button (click)='add()'>+</button>
-<button (click)='subtract()'>-</button>
-<button (click)='multiply()'>*</button>
-<button (click)='divide()'>/</button>
-<h3>Score: {{ numberResult }}</h3>
+<h2>Calculator</h2>
+<div class="calculator">
+  <input type="number" [(ngModel)]='numberOne' />
+  <input type="number" [(ngModel)]='numberTwo' />
+  <!-- <div> -->
+    <button (click)='add()'>+</button>
+    <button (click)='subtract()'>-</button>
+    <button (click)='multiply()'>*</button>
+    <button (click)='divide()'>/</button>
+  <!-- </div> -->
+</div>
+<h3>Score: <span>{{ numberResult }}</span></h3>

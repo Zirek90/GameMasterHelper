@@ -7,27 +7,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CalculatorComponent implements OnInit {
 
-  numberOne:number;
-  numberTwo:number;
-  numberResult:number;
+  numberOne: number;
+  numberTwo: number;
+  numberResult: number;
 
   constructor() { }
 
   ngOnInit() {
   }
 
-  add(){
-    this.numberResult = this.numberOne + this.numberTwo;
-
+  add() {
+    if (!isNaN(this.numberOne) && !isNaN(this.numberTwo)) {
+      this.numberResult = this.numberOne + this.numberTwo;
+    }
   }
   subtract() {
-    this.numberResult = this.numberOne - this.numberTwo;
+    if (!isNaN(this.numberOne) && !isNaN(this.numberTwo)) {
+      this.numberResult = this.numberOne - this.numberTwo;
+    }
   }
   multiply() {
-    this.numberResult = this.numberOne * this.numberTwo;
+    if (!isNaN(this.numberOne) && !isNaN(this.numberTwo)) {
+      this.numberResult = this.numberOne * this.numberTwo;
+    }
   }
-  divide(){
-    this.numberResult = this.numberOne / this.numberTwo;
+  divide() {
+    if (!isNaN(this.numberOne) && !isNaN(this.numberTwo)) {
+      this.numberResult = this.numberOne / this.numberTwo;
+    }
   }
 
 }

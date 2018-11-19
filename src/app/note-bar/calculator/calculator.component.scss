@@ -1,0 +1,20 @@
+h2 {
+    text-align: center;
+}
+.calculator {
+    width: 100%;
+    display: flex;
+    padding: .7rem;
+    input {
+        width: 60px;
+    }
+    button {
+        width: 50px;
+    }
+}
+h3 {
+    padding-bottom: 2rem;
+    span {
+        font-weight: bolder;
+    }
+}
