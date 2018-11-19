@@ -7,20 +7,22 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ToDoComponent implements OnInit {
 
-  tasks:any[] = []
+  tasks: any[] = []
 
-  constructor() { 
+  constructor() {
   }
 
   ngOnInit() {
   }
-  
+
   submit(newTodoTask) {
     var newTodo = {
       title: newTodoTask,
       done: false
     }
-    this.tasks.push(newTodo)
+    if (newTodoTask != '' && newTodoTask.value != '') {
+      this.tasks.push(newTodo)
+    }
   }
 
 }

@@ -7,11 +7,9 @@
   </form>
 
   <ul *ngFor='let task of tasks'>
-    <!-- <ul> -->
     <li>
       <input type="checkbox" ng-model='task.done'>
       <span>{{ task.title }}</span>
     </li>
-  <!-- </ul> -->
   </ul>
 </div>
