@@ -1,8 +1,8 @@
 <form>
   <label>Add tasks to remember
-    <input type="text" #newTodo>
+    <input type="text"  [(ngModel)]='newTask' [ngModelOptions]="{standalone: true}">
   </label>
-  <button (click)='submit(newTodo.value)'>Add</button>
+  <button (click)='submit(newTask)'>Add</button>
 </form>
 
 <ul *ngFor='let task of tasks'>

@@ -11,6 +11,7 @@ import { MonsterListComponent } from './monster-list/monster-list.component';
 import { ToDoComponent } from './to-do/to-do.component';
 import { NoteBarComponent } from './note-bar/note-bar.component';
 import { DicesComponent } from './monster-list/dices/dices.component';
+import { CalculatorComponent } from './note-bar/calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DicesComponent } from './monster-list/dices/dices.component';
     MonsterListComponent,
     ToDoComponent,
     NoteBarComponent,
-    DicesComponent
+    DicesComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
