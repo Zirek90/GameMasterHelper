@@ -1,4 +1,11 @@
-<h2>{{ dateInfo }}</h2>
-<button (click)='stoperStart()'>Start</button>
-<button (click)='stoperStop()'>Stop</button>
-<h3>Timer: {{stoper}}</h3>
+<!-- <div class="panel panel-primary"> -->
+<div class="jumbotron">
+  <h2>{{ dateInfo }}</h2>
+  <div class="timer">
+    <button (click)='stoperStart()' class="btn btn-primary">Start</button>
+    <button (click)='stoperStop()' class="btn btn-danger">Stop</button>
+    <h3>Timer: {{stoper}}</h3>
+  </div>
+</div>
+
+<!-- </div> -->

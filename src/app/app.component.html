@@ -1,11 +1,13 @@
-<app-header></app-header>
-<div *ngIf='gamePage; else page'> 
+<div class="container">
+  <app-header></app-header>
+  <div *ngIf='!gamePage; else page'>
     <app-form-list></app-form-list>
     <app-form></app-form>
     <button (click)='playGame()'>Let's play a game!</button>
-</div>
-<ng-template #page>
-    <!-- <app-monster-list></app-monster-list> -->
-    <!-- <app-to-do></app-to-do> -->
+  </div>
+  <ng-template #page>
+    <app-monster-list></app-monster-list>
+    <app-to-do></app-to-do>
     <app-note-bar></app-note-bar>
-</ng-template>
+  </ng-template>
+</div>

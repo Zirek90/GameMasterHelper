@@ -22,14 +22,13 @@ export class FormListComponent implements OnInit {
   refreshData() {
     this.http.get('https://monsterlist-59e3a.firebaseio.com/monsters.json')
       .subscribe((resp) => {
-        // this.monsterList = resp
         let arr = [];
         for (let key in resp) {
           
           arr.push(resp[key]);
           this.monsterList = arr;
         }
-        console.log(this.monsterList);
+        // console.log(this.monsterList);
       })
     }
 

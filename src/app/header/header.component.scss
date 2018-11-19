@@ -1,0 +1,15 @@
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    h2 {
+        margin-right: 2rem;
+        padding: 0.5rem;
+    }
+    .timer {
+        display: flex;
+        button,h3 {
+            margin: 0.5rem;
+        }
+    }
+}

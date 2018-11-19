@@ -26,7 +26,7 @@ export class FormComponent implements OnInit {
       hp: this.hp,
       category: this.category
     })
-    .subscribe((resp) => {
+    .subscribe(() => {
       // this.resp = resp;
       // console.log(this.resp);
       this.name = '';
