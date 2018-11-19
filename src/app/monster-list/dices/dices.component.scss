@@ -4,8 +4,29 @@
     border-bottom: 1px dashed black;
     button {
         width: 40px;
+        height: 40px;
         margin: .2rem;
+        
     }
+    .kFour {
+        background: url('../../../img/dices/k4.jpg') center/cover no-repeat;
+    }
+    .kSix {
+        background: url('../../../img/dices/k6.jpg') center/cover no-repeat;
+    }
+    .kEight {
+        background: url('../../../img/dices/k8.jpg') center/cover no-repeat;
+    }
+    .kTen {
+        background: url('../../../img/dices/k10.jpg') center/cover no-repeat;
+    }
+    .kTwelve {
+        background: url('../../../img/dices/k12.jpg') center/cover no-repeat;
+    }
+    .kTwenty {
+        background: url('../../../img/dices/k20.jpg') center/cover no-repeat;
+    }
+
     h3 {
         font-size: 1.2rem;
         span {
