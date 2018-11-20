@@ -1,8 +1,8 @@
 <div class="col-md form-list">
   <button (click)='refreshData()' class="btn">Refresh</button>
   <ul *ngFor='let monster of monsterList'>
-    <li>Name: {{monster.name}}</li>
-    <li>HP: {{monster.hp}}</li>
-    <li>Category: {{monster.category}}</li>
+    <li><span> Name:</span> {{monster.name}}</li>
+    <li><span> HP:</span> {{monster.hp}}</li>
+    <li><span> Category:</span> {{monster.category}}</li>
   </ul>
 <div class="col">
