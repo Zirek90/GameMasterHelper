@@ -2,6 +2,8 @@
     display: flex;
     height: 100%;
     align-self: center;
+    justify-content: flex-end;
+
     .btn {
         background: url('../img/sword.jpeg') bottom/cover no-repeat;
         height: 50px;

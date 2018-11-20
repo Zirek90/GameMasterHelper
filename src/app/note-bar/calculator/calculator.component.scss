@@ -4,12 +4,15 @@ h2 {
 .calculator {
     width: 100%;
     display: flex;
-    padding: .7rem;
+    padding: .6rem;
     input {
         width: 60px;
+        margin: 1px;
     }
     button {
         width: 50px;
+        margin: 1px;
+
     }
 }
 h3 {
