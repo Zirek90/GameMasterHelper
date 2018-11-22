@@ -10,6 +10,7 @@ import { HttpClient } from '@angular/common/http';
 export class MonsterListComponent implements OnInit {
 
   monsterList: any[] = [];
+  searchMonster:string;
 
   constructor(private http: HttpClient) {
     this.http.get('https://monsterlist-59e3a.firebaseio.com/monsters.json')
@@ -23,6 +24,12 @@ export class MonsterListComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  filteredMonsterList() {
+    return this.monsterList.filter((monster) => {
+      return monster.category.match(this.searchMonster);
+    })
   }
 
  

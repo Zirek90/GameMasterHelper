@@ -1,6 +1,7 @@
 <div class="col-md monster-list">
   <app-dices></app-dices>
-  <ul *ngFor='let monster of monsterList'>
+  <input type="text" [(ngModel)]='searchMonster' placeholder="Fantasy">
+  <ul *ngFor='let monster of filteredMonsterList()'>
     <li><span> Name:</span> {{monster.name}}</li>
     <li><span> HP:</span> {{monster.hp}}</li>
     <li><span> Category:</span> {{monster.category}}</li>
