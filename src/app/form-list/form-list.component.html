@@ -1,8 +1,9 @@
 <div class="col-md form-list">
   <button (click)='refreshData()' class="btn">Refresh</button>
-  <ul *ngFor='let monster of monsterList'>
-    <li><span> Name:</span> {{monster.name}}</li>
+  <input type="text" [(ngModel)]='searchMonster' placeholder="Fantasy">
+  <ul *ngFor='let monster of filteredMonsterList()'>
+    <li><span> Name:</span> {{monster.name }}</li>
     <li><span> HP:</span> {{monster.hp}}</li>
     <li><span> Category:</span> {{monster.category}}</li>
   </ul>
-<div class="col">
+</div>

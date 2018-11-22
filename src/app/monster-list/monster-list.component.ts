@@ -9,18 +9,17 @@ import { HttpClient } from '@angular/common/http';
 })
 export class MonsterListComponent implements OnInit {
 
-  monsterList: any[];
+  monsterList: any[] = [];
 
   constructor(private http: HttpClient) {
     this.http.get('https://monsterlist-59e3a.firebaseio.com/monsters.json')
       .subscribe((resp) => {
-        let arr = [];
         for (let key in resp) {
-          
-          arr.push(resp[key]);
-          this.monsterList = arr;
+          this.monsterList.push(resp[key])
         }
-      })
+      })   
+      // console.log(this.monsterList);
+
   }
 
   ngOnInit() {

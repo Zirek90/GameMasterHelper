@@ -9,7 +9,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class FormListComponent implements OnInit {
 
-  monsterList: any[];
+  monsterList: any[] = [];
+  searchMonster:string;
 
   constructor(private http: HttpClient) {
     
@@ -22,13 +23,16 @@ export class FormListComponent implements OnInit {
   refreshData() {
     this.http.get('https://monsterlist-59e3a.firebaseio.com/monsters.json')
       .subscribe((resp) => {
-        let arr = [];
         for (let key in resp) {
-          
-          arr.push(resp[key]);
-          this.monsterList = arr;
+          this.monsterList.push(resp[key]);
         }
         // console.log(this.monsterList);
+      })
+    }
+
+    filteredMonsterList() {
+      return this.monsterList.filter((monster) => {
+        return monster.category.match(this.searchMonster);
       })
     }
 
