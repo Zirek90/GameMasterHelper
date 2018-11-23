@@ -9,6 +9,7 @@ export class ToDoComponent implements OnInit {
 
   tasks: any[] = []
   newTask:string;
+  taskDone:any;
   
   constructor() {
   }
@@ -21,10 +22,12 @@ export class ToDoComponent implements OnInit {
       title: newTask,
       done: false
     }
-    if (newTask != '' && newTask.value != '') {
+    if (newTask) {
       this.tasks.push(newTodo)
       this.newTask = '';
-    }
+    } 
   }
-
+  // taskCompleted(task) {
+  //  alert(task)
+  // }
 }
