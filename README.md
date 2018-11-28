@@ -22,7 +22,7 @@ I expect that it will make some game sessions better and easier to maintain. Thi
 
 Things to add in future: After clicking checkbox, task from reminder would be strikethrough.
 
-## App is not RWD and is displayed correctly for > 1000px screens
+# App is not RWD and is displayed correctly for > 1000px screens
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
