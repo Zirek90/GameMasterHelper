@@ -10,7 +10,9 @@ After that, the final GameMaster board will be shown as:
 
 - 6 different kind of dices on the left side,
 
-- list of NPC below the dices,
+- filter through the categories of NPC,
+
+- list of NPC below the filter,
 
 - important moments to remember like 'traps' or some particular 'plot twists' in the middle,
 
