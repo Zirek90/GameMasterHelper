@@ -10,7 +10,9 @@ After that, the final GameMaster board will be shown as:
 
 - 6 different kind of dices on the left side,
 
-- list of NPC below the dices,
+- filter through the categories of NPC,
+
+- list of NPC below the filter,
 
 - important moments to remember like 'traps' or some particular 'plot twists' in the middle,
 
@@ -20,7 +22,9 @@ After that, the final GameMaster board will be shown as:
 
 I expect that it will make some game sessions better and easier to maintain. This project will be developing with time.
 
-Things to add in future: Filter through the categories (after clicking checkbox task from reminder would be strikethrough).
+Things to add in future: After clicking checkbox, task from reminder would be strikethrough.
+
+### App is not RWD and is displayed correctly for > 1000px screens
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
 
