@@ -20,9 +20,11 @@ After that, the final GameMaster board will be shown as:
 
 - calculator with basic operators below the textarea,
 
+- sound-bar with sounds to build a tension and evoking the vibe.
+
 I expect that it will make some game sessions better and easier to maintain. This project will be developing with time.
 
-Things to add in future: After clicking checkbox, task from reminder would be strikethrough.
+Things to add in future: After clicking checkbox, task from reminder would be strikethrough, add more sounds.
 
 ### App is not RWD and is displayed correctly for > 1000px screens
 
