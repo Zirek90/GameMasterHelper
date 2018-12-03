@@ -12,6 +12,7 @@ import { ToDoComponent } from './to-do/to-do.component';
 import { NoteBarComponent } from './note-bar/note-bar.component';
 import { DicesComponent } from './monster-list/dices/dices.component';
 import { CalculatorComponent } from './note-bar/calculator/calculator.component';
+import { SoundBarComponent } from './note-bar/sound-bar/sound-bar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CalculatorComponent } from './note-bar/calculator/calculator.component'
     ToDoComponent,
     NoteBarComponent,
     DicesComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    SoundBarComponent,
   ],
   imports: [
     BrowserModule,
